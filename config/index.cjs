@@ -6,12 +6,13 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
+  USE_PASSAGE: 'push-deer'
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxdcd47a9098743d35',
+  // APP_ID: 'wxdcd47a9098743d35',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'f2427d392226888d7251769de73027c6',
+  // APP_SECRET: 'f2427d392226888d7251769de73027c6',
 
   PROVINCE: '北京',
   CITY: '通州区',
@@ -39,10 +40,12 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '我自己',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oBNXl6zWpwWjSYw_pD4fM0ku3Tbk',
+      // id: 'oBNXl6zWpwWjSYw_pD4fM0ku3Tbk',
       // id: 'oBNXl61qtHOV8NSgkXbYSLkwqCWg',
+      id: 'PDU33294T27B8fVRKmLd9p8xF3jPOBmdej8ncGqrX',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Y2SuqJDy3A3IYSs3ztMyg8uv1J_0T8qf1OfiD-JY9yo',
+      // useTemplateId: 'Y2SuqJDy3A3IYSs3ztMyg8uv1J_0T8qf1OfiD-JY9yo',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-19',
       festivals: [
